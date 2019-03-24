@@ -1,0 +1,10 @@
+{"level":"info","message":"Maximizing browser window","timestamp":"2019-03-24T13:27:18.567Z"}
+{"level":"info","message":"I open https://www.epam.com/ url","timestamp":"2019-03-24T13:27:18.758Z"}
+{"level":"info","message":"I wait until Logo is present","timestamp":"2019-03-24T13:27:23.432Z"}
+{"level":"info","message":"I click Careers","timestamp":"2019-03-24T13:27:23.479Z"}
+{"level":"info","message":"I wait until JobForm is present","timestamp":"2019-03-24T13:27:25.929Z"}
+{"level":"info","message":"Page title should be Explore Professional Growth Opportunities | EPAM Careers","timestamp":"2019-03-24T13:27:25.983Z"}
+{"level":"info","message":"I open https://www.protractortest.org/#/ url","timestamp":"2019-03-24T13:27:25.993Z"}
+{"level":"info","message":"Page title should be Protractor - end-to-end testing for AngularJS","timestamp":"2019-03-24T13:27:26.841Z"}
+{"level":"info","message":"I open https://stackoverflow.com/ url","timestamp":"2019-03-24T13:27:26.846Z"}
+{"level":"info","message":"Page title should be Stack Overflow - Where Developers Learn, Share, & Build Careers","timestamp":"2019-03-24T13:27:29.471Z"}

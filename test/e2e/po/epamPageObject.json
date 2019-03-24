@@ -1,0 +1,14 @@
+{
+  "Logo": {
+    "isCollection": false,
+    "selector": "img.header__logo"
+  },
+  "Careers": {
+    "isCollection": false,
+    "selector": "span > a[href='/careers']"
+  },
+  "JobForm": {
+    "isCollection": false,
+    "selector": ".recruiting-search__form.job-search__form"
+  }
+}

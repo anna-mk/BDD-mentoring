@@ -1,0 +1,191 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "BDD",
+    "line": 2,
+    "id": "bdd",
+    "tags": [
+      {
+        "name": "@all",
+        "line": 1
+      }
+    ],
+    "uri": "test\\e2e\\features\\test.feature",
+    "elements": [
+      {
+        "id": "bdd;verify-epam-careers-page-title",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify EPAM Careers page title",
+        "tags": [
+          {
+            "name": "@all",
+            "line": 1
+          },
+          {
+            "name": "@epam",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I open \"https://www.epam.com/\" url",
+            "match": {
+              "location": "BDD\\homework\\BDD\\node_modules\\cucumber\\src\\support_code_library_builder\\define_helpers.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I wait until \"Logo\" is present",
+            "match": {
+              "location": "BDD\\homework\\BDD\\node_modules\\cucumber\\src\\support_code_library_builder\\define_helpers.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click on \"Careers\"",
+            "match": {
+              "location": "BDD\\homework\\BDD\\node_modules\\cucumber\\src\\support_code_library_builder\\define_helpers.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2449
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I wait until \"JobForm\" is present",
+            "match": {
+              "location": "BDD\\homework\\BDD\\node_modules\\cucumber\\src\\support_code_library_builder\\define_helpers.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Page title should be \"Explore Professional Growth Opportunities | EPAM Careers\"",
+            "match": {
+              "location": "BDD\\homework\\BDD\\node_modules\\cucumber\\src\\support_code_library_builder\\define_helpers.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14
+            }
+          }
+        ]
+      },
+      {
+        "id": "bdd;i-should-be-able-to-access-https://www.protractortest.org/#/",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "I should be able to access https://www.protractortest.org/#/",
+        "tags": [
+          {
+            "name": "@all",
+            "line": 1
+          },
+          {
+            "name": "@others",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I open \"https://www.protractortest.org/#/\" url",
+            "match": {
+              "location": "BDD\\homework\\BDD\\node_modules\\cucumber\\src\\support_code_library_builder\\define_helpers.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 836
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Page title should be \"Protractor - end-to-end testing for AngularJS\"",
+            "match": {
+              "location": "BDD\\homework\\BDD\\node_modules\\cucumber\\src\\support_code_library_builder\\define_helpers.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13
+            }
+          }
+        ]
+      },
+      {
+        "id": "bdd;i-should-be-able-to-access-https://stackoverflow.com/",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "I should be able to access https://stackoverflow.com/",
+        "tags": [
+          {
+            "name": "@all",
+            "line": 1
+          },
+          {
+            "name": "@others",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I open \"https://stackoverflow.com/\" url",
+            "match": {
+              "location": "BDD\\homework\\BDD\\node_modules\\cucumber\\src\\support_code_library_builder\\define_helpers.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2614
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Page title should be \"Stack Overflow - Where Developers Learn, Share, & Build Careers\"",
+            "match": {
+              "location": "BDD\\homework\\BDD\\node_modules\\cucumber\\src\\support_code_library_builder\\define_helpers.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
